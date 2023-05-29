@@ -1,14 +1,20 @@
 @use "breakpoint";
 
 @font-face {
-	font-family: "";
+	font-family: "Playfair Display", serif;
 	src: url(/src/assets/static/font/);
-	font-weight: 500;
+	font-weight: 700;
+	font-display: swap;
+}
+@font-face {
+	font-family: "Roboto", sans-serif;
+	src: url(/src/assets/static/font/);
+	font-weight: 700;
 	font-display: swap;
 }
 
 @font-face {
-	font-family: "";
+	font-family: "Raleway", sans-serif;
 	src: url(/src/assets/static/font/) format("woff2-variations");
 	font-display: swap;
 	font-weight: 125 950;
@@ -17,41 +23,49 @@
 
 h1,
 .h1 {
-	@media screen and (max-width: breakpoint.$mobile) {}
+	@media screen and (max-width: breakpoint.$mobile) {
+	}
 }
 
 h2,
 .h2 {
-	@media screen and (max-width: breakpoint.$mobile) {}
+	@media screen and (max-width: breakpoint.$mobile) {
+	}
 }
 
 h3,
 .h3 {
-	@media screen and (max-width: breakpoint.$mobile) {}
+	@media screen and (max-width: breakpoint.$mobile) {
+	}
 }
 
 h4,
 .h4 {
-	@media screen and (max-width: breakpoint.$mobile) {}
+	@media screen and (max-width: breakpoint.$mobile) {
+	}
 }
 
 h5,
 .h5 {
-	@media screen and (max-width: breakpoint.$mobile) {}
+	@media screen and (max-width: breakpoint.$mobile) {
+	}
 }
 
 h6,
 .h6 {
-	@media screen and (max-width: breakpoint.$mobile) {}
+	@media screen and (max-width: breakpoint.$mobile) {
+	}
 }
 
 .subtitle {
-	@media screen and (max-width: breakpoint.$mobile) {}
+	@media screen and (max-width: breakpoint.$mobile) {
+	}
 }
 
 body,
 input {
-	@media screen and (max-width: breakpoint.$mobile) {}
+	@media screen and (max-width: breakpoint.$mobile) {
+	}
 }
 
 a {
