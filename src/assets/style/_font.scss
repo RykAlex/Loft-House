@@ -64,10 +64,17 @@ h6,
 
 body,
 input {
+	font-family: "Raleway", sans-serif;
+	font-size: 16px;
+	color: var(--white);
 	@media screen and (max-width: breakpoint.$mobile) {
 	}
 }
 
 a {
 	color: inherit;
+	transition: var(--default-transition);
+	&:hover {
+		color: var(--accsent);
+	}
 }

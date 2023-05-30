@@ -37,7 +37,9 @@ body {
 		width: 100%;
 	}
 }
-
+ul li {
+	list-style: none;
+}
 .d-mobile {
 	@media (min-width: breakpoint.$mobile) {
 		display: none !important;
