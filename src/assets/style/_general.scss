@@ -29,6 +29,7 @@ html {
 }
 
 body {
+	background-color: var(--dark);
 	&.noscroll {
 		overflow: hidden;
 		top: calc(-1 * var(--scroll-position, 0));
