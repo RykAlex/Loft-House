@@ -29,6 +29,12 @@ h1,
 
 h2,
 .h2 {
+	font-family: "Playfair Display";
+	font-weight: 700;
+	font-size: 36px;
+	line-height: 1.333;
+
+	color: var(--accsent);
 	@media screen and (max-width: breakpoint.$mobile) {
 	}
 }
