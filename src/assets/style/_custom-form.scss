@@ -6,13 +6,14 @@
 	flex-direction: column;
 	align-items: stretch;
 	gap: calc(var(--gap) * 2);
-	--gap: 18px;
+	--gap: 30px;
 
 	@media (max-width: breakpoint.$mobile) {
 		--gap: 12px;
 	}
 
-	&__title {}
+	&__title {
+	}
 
 	&__group {
 		display: flex;
@@ -42,6 +43,7 @@
 	&__row {
 		display: flex;
 		gap: var(--gap);
+		flex-direction: column;
 
 		@media (max-width: breakpoint.$mobile) {
 			flex-direction: column;
